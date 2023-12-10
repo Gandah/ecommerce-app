@@ -4,7 +4,7 @@ import { toast } from 'react-hot-toast';
 
 
 // Create a context object
-const Context = createContext();
+const Context = createContext(null!);
 
 export const StateContextProvider = ({ children }) => {
 

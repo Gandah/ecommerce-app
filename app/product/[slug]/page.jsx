@@ -1,7 +1,6 @@
 // app/product/page.tsx
 import { Product, ProductSlider, ButtonSection } from "@/components";
 import { client } from "@/lib/client";
-import { useEffect } from "react";
 import {  AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
 

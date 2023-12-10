@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { AiOutlineShopping } from 'react-icons/ai';
-import { Cart } from './';
+import { Cart } from '.';
 import { useStateContextProvider } from '@/Context/StateContext';
 
 

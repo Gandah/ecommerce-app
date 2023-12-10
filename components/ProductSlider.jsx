@@ -35,7 +35,7 @@ export default function ProductSlider({ image, name }) {
             className="product-detail-image" />
       </div>
       <div className="small-images-container">
-            {image?.map((item, i:number) => (
+            {image?.map((item, i) => (
                 <Image
                 key={item._key}
                 src={urlFor(item).url()}

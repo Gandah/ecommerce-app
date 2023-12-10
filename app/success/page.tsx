@@ -39,7 +39,7 @@ useEffect(() => {
             </Link>
             </p>
             <Link href="/">
-                <button type="button" width="300px" className="btn">
+                <button type="button"  className="btn btn_w">
                     Continue Shopping
                 </button>
             </Link>

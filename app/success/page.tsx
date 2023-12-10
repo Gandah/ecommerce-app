@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { BsBagCheckFill } from 'react-icons/bs';
 
 import { useStateContextProvider } from '@/Context/StateContext';
-import runfireWorks from '@/lib/util';
+// import runfireWorks from '@/lib/util';
 
 const Success = () => {
 
@@ -20,7 +20,7 @@ useEffect(() => {
     setCartItems([]);
     setTotalPrice(0);
     setTotalQuantities(0);
-    runfireWorks()
+    // runfireWorks()
 }, []);
 
 

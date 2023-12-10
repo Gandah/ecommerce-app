@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Footer.tsx", "Context/StateContext.jsx", "app/api/stripe/route.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Footer.tsx", "Context/StateContext.jsx", "app/api/stripe/route.js", "app/page.jsx"],
   "exclude": ["node_modules"]
 }

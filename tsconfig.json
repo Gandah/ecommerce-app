@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Footer.tsx", "Context/StateContext.jsx", "app/api/stripe/route.js", "app/page.jsx", "components/ButtonSection.jsx", "components/Cart.jsx", "components/FooterBanner.jsx", "components/HeroBanner.jsx", "components/LayoutComponent.jsx", "components/NavBar.jsx", "components/Product.jsx", "components/ProductSlider.jsx", "app/product/[slug]/page.jsx", "lib/getStripe.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/Footer.tsx", "Context/StateContext.jsx", "app/api/stripe/route.js", "app/page.jsx", "components/ButtonSection.jsx", "components/Cart.jsx", "components/FooterBanner.jsx", "components/HeroBanner.jsx", "components/LayoutComponent.jsx", "components/NavBar.jsx", "components/Product.jsx", "components/ProductSlider.jsx", "app/product/[slug]/page.jsx", "lib/getStripe.js", "sanitycms/sanity.config.js", "sanitycms/sanity.cli.js"],
   "exclude": ["node_modules"]
 }

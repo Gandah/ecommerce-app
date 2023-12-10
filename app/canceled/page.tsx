@@ -5,20 +5,11 @@ import { useEffect } from 'react';
 import Link from 'next/link';
 import { TbShoppingCartX } from "react-icons/tb";
 
-import { useStateContextProvider } from '@/Context/StateContext';
 
 const Cancel = () => {
 
-    const { setCartItems, 
-        setTotalPrice, 
-        setTotalQuantities } = useStateContextProvider();
-
-
 useEffect(() => {
     localStorage.clear();
-    // setCartItems([]);
-    // setTotalPrice(0);
-    // setTotalQuantities(0);
 
 }, []);
 
@@ -33,7 +24,7 @@ useEffect(() => {
             <p className="email-msg">The order was not was not placed successfully. Please try again.</p>
         
             <Link href="/">
-                <button type="button" width="300px" className="btn">
+                <button type="button"  className="btn btn_w">
                     Continue Shopping
                 </button>
             </Link>

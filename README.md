@@ -38,11 +38,11 @@
 
 ![Mobile](./screenshots/mobile.png)
 
-
 ### Links
 
 - GitHub Repo: [View Repo](https://github.com/Gandah/ecommerce-app.git)
 - Live Site URL: [Visit Site](./)
+- CMS : [Sanity Studio](https://electrix-ecommerce-app.sanity.studio/)
 
 ### Built with
 

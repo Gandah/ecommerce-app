@@ -3,7 +3,7 @@ import Stripe from "stripe";
 const stripe = new Stripe(process.env.NEXT_PUBLIC_STRIPE_SECRET_KEY);
 
 
-export async function POST(req: Request, res: Response){
+export async function POST(req, res){
   "use server"
     const shippingRate = await stripe.shippingRates.create({
         display_name: 'Ground shipping',
